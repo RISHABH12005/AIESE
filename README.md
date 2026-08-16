@@ -4,10 +4,10 @@
 
 | Lecture | Topic |
 |---------|-------|
-| [L1](Lecture/L1.md) | (empty) |
-| [L2](Lecture/L2.md) | Library Management System - Functional & Non-Functional Requirements |
+| [L1](Lecture/L1.md) | Surveillance Drone - Software Requirements |
+| [L2](Lecture/L2.md) | Library Management System & Surveillance Drone - Functional & Non-Functional Requirements |
 | [L3](Lecture/L3.md) | Online Examination System - Requirement Elicitation |
 | [L4](Lecture/L4.md) | College ERP System - IEEE Style Documentation / SRS |
 | [L5](Lecture/L5.md) | Hostel Management System - Modules |
-| [L6](Lecture/L6.md) | Student Management System (Java Class) & Library Management System |
+| [L6](Lecture/L6.md) | Student Management System (Java Class) & Library Management System (Refactoring) |
 | [L7](Lecture/L7.md) | College Attendance Management System (C++) |
