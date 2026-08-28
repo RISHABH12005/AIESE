@@ -1,4 +1,4 @@
-# AISE
+# Artificial Intelligence in Software Engineering (AISE)
 
 ## Lectures
 
