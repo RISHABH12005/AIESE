@@ -11,3 +11,6 @@
 | [L5](Lecture/L5.md) | Hostel Management System - Modules |
 | [L6](Lecture/L6.md) | Student Management System (Java Class) & Library Management System (Refactoring) |
 | [L7](Lecture/L7.md) | College Attendance Management System (C++) |
+| [L8](Lecture/L8.md) | |
+| [L9](Lecture/L9.md) | |
+| [L10](Lecture/L10)  | |
