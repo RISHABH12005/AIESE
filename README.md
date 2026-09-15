@@ -14,8 +14,8 @@
 | [L8](Lecture/L8.md) | |
 | [L9](Lecture/L9.md) | |
 | [L10](Lecture/L10)  | |
-| [L10](Lecture/L11.md)  | |
-| [L10](Lecture/L12-14)  | |
+| [L11](Lecture/L11.md)  | |
+| [L12-14](Lecture/L12-14)  | |
 
 
 ## Assignment
