@@ -14,3 +14,11 @@
 | [L8](Lecture/L8.md) | |
 | [L9](Lecture/L9.md) | |
 | [L10](Lecture/L10)  | |
+| [L10](Lecture/L11.md)  | |
+
+
+## Assignment
+
+| Assignment | Topic |
+|------------|-------|
+| [A1](Assignment/A1) | |
