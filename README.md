@@ -16,7 +16,7 @@
 | [L10](Lecture/L10)  | |
 | [L11](Lecture/L11.md)  | |
 | [L12-14](Lecture/L12-14)  | |
-| [L12-14](Lecture/L15)  | |
+| [L15](Lecture/L15)  | |
 
 
 ## Assignment
