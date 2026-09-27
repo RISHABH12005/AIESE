@@ -1,5 +1,4 @@
 import streamlit as st
-
 st.title("AI Student Assistant")
 
 # Intelligence Layer
@@ -17,7 +16,6 @@ def identify_intent(query):
 
     else:
         return "general_query"
-
 
 # Client Layer
 query = st.text_input("Ask your question")
