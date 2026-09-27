@@ -11,16 +11,15 @@
 | [L5](Lecture/L5.md) | Hostel Management System - Modules |
 | [L6](Lecture/L6.md) | Student Management System (Java Class) & Library Management System (Refactoring) |
 | [L7](Lecture/L7.md) | College Attendance Management System (C++) |
-| [L8](Lecture/L8.md) | |
-| [L9](Lecture/L9.md) | |
-| [L10](Lecture/L10)  | |
-| [L11](Lecture/L11.md)  | |
-| [L12-14](Lecture/L12-14)  | |
-| [L15](Lecture/L15)  | |
-
+| [L8](Lecture/L8.md) | AI Prompting for Code Generation, Debugging & Requirements |
+| [L9](Lecture/L9.md) | Prompt Engineering |
+| [L10](Lecture/L10) | AI-Assisted Code Correction, Calculator Development & Test Cases |
+| [L11](Lecture/L11.md) | Data Structures, Concurrency & Race Conditions in Software Engineering |
+| [L12-14](Lecture/L12-14) | AI-Assisted Testing, Security Auditing, SQL Injection Prevention & Performance Analysis |
+| [L15](Lecture/L15) | AI Student Assistant |
 
 ## Assignment
 
 | Assignment | Topic |
 |------------|-------|
-| [A2](Assignment/A2) | |
+| [A2](Assignment/A2) | AI-Assisted Debugging & Code Correction in C++ |
