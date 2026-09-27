@@ -1,8 +1,4 @@
-# Prompt:
-Install the official Streamlit skills by running streamlit skills in your terminal.
-
-
-# Cmd:
+# Commands:
 
 ```bash
 cd "C:\Users\risha\OneDrive\Documents\Code\AISE\L15\AI.Student.Assistant"
@@ -18,3 +14,6 @@ python -m pip install streamlit
 streamlit run "app-1.py"
 streamlit run "app-2.py"
 ```
+
+# Prompt:
+Install the official Streamlit skills by running streamlit skills in your terminal.
