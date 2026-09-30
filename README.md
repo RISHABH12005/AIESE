@@ -30,4 +30,4 @@
 
 | Activity | Topic |
 |------------|-------|
-| [Activity 1](Activity/A1) | AI-Assisted Debugging & Code Correction in C++ |
+| [Activity 1](Activity/A1) | |
