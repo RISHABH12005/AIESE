@@ -1,4 +1,4 @@
-# CMD
+# Commands:
 
 ```bash
 cd C:\AISE\A2
