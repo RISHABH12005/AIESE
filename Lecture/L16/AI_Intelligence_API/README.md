@@ -1,4 +1,4 @@
-# CMD
+# Commands:
 
 ```bash
 cd C:\AISE\Lecture\L17\AI_Intelligence_API
