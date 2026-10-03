@@ -17,6 +17,7 @@
 | [Lecture 11](Lecture/L11.md) | Data Structures, Concurrency & Race Conditions in Software Engineering |
 | [Lecture 12-14](Lecture/L12-14) | AI-Assisted Testing, Security Auditing, SQL Injection Prevention & Performance Analysis |
 | [Lecture 15](Lecture/L15) | AI Student Assistant |
+| [Lecture 16](Lecture/L16) | |
 
 
 ## Assignment
@@ -31,3 +32,4 @@
 | Activity | Topic |
 |------------|-------|
 | [Activity 1](Activity/A1) | |
+| [Activity 2](Activity/A2) | |
