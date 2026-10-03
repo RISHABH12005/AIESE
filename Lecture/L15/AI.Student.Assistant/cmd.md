@@ -1,7 +1,7 @@
 # Commands:
 
 ```bash
-cd "D:\AISE\L15\AI.Student.Assistant"
+cd "C:\AISE\Lecture\L15\AI.Student.Assistant"
 py -3.13 -m venv venv
 .\venv\Scripts\Activate.ps1
 ```
