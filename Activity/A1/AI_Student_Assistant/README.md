@@ -1,4 +1,4 @@
-# CMD
+# Commands:
 
 ```bash
 cd "C:\Activity\A1\AI_Student_Assistant"
