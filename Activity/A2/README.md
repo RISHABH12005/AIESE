@@ -13,7 +13,7 @@ python -m pip install fastapi
 ```
 
 ```bash
-uvicorn courses:app --reload --port 8080
-uvicorn student:app --reload --port 8081
-uvicorn recommend:app --reload --port 8082
+uvicorn courses:app --reload --port 8001
+uvicorn student:app --reload --port 8000
+uvicorn recommend:app --reload --port 8002
 ```
