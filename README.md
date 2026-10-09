@@ -18,8 +18,8 @@
 | [Lecture 12-14](Lecture/L12-14) | AI-Assisted Testing, Security Auditing, SQL Injection Prevention & Performance Analysis |
 | [Lecture 15](Lecture/L15) | AI Student Assistant |
 | [Lecture 16](Lecture/L16) | AI Intelligence API Integration |
-| [Lecture 17](Lecture/L17.md) | |
-| [Lecture 18](Lecture/L18.md) | |
+| [Lecture 17](Lecture/L17.md) | Test Case Design: Normal, Invalid & Boundary Values |
+| [Lecture 18](Lecture/L18.md) | Login Testing, CSV Test Case Documentation, Requirement Clarification & Healthcare Analytics Testing Scope |
 
 ## Assignment
 
