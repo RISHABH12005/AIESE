@@ -1,7 +1,7 @@
 # Commands:
 
 ```bash
-cd C:\AISE\A2
+cd C:\AISE\Activity\A2
 py -3.13 -m venv venv
 .\venv\Scripts\Activate.ps1
 ```
