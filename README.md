@@ -16,33 +16,33 @@ This repository collects examples of applying software engineering principles al
 
 | Lecture | Topics / Materials |
 | --- | --- |
-| [Lecture 1](Lecture/L1.md) | Software requirements for a surveillance drone; functional and non-functional requirements |
-| [Lecture 2](Lecture/L2.md) | Library management system requirements and surveillance drone system planning |
-| [Lecture 3](Lecture/L3.md) | Online examination system; identifying ambiguous, incomplete, conflicting, and unrealistic requirements |
-| [Lecture 4](Lecture/L4.md) | IEEE-style Software Requirements Specification (SRS) and Agile planning for a surveillance drone |
-| [Lecture 5](Lecture/L5.md) | Hostel management system modules and responsibilities |
-| [Lecture 6](Lecture/L6.md) | Java class design, code review, and Python refactoring examples |
-| [Lecture 7](Lecture/L7.md) | C++ college attendance management system |
-| [Lecture 8](Lecture/L8.md) | AI prompting for code generation, debugging, and requirement discovery |
-| [Lecture 9](Lecture/L9.md) | Prompt engineering |
-| [Lecture 10](Lecture/L10/) | AI-assisted code correction, calculator implementation, and C++ examples |
-| [Lecture 11](Lecture/L11.md) | Data-structure trade-offs and race conditions in software systems |
-| [Lectures 12–14](Lecture/L12-14/) | AI-assisted development activity, including a Copilot-oriented hostel management exercise |
-| [Lecture 15](Lecture/L15/) | AI Student Assistant project |
-| [Lecture 16](Lecture/L16/) | AI Intelligence API project |
+| [Lecture 1](Lecture/L1.md) | Software Requirements: Surveillance Drone |
+| [Lecture 2](Lecture/L2.md) | Library Management System Requirements; Functional and Non-Functional Requirements |
+| [Lecture 3](Lecture/L3.md) | Requirement Elicitation; Requirement Ambiguity, Incompleteness, Conflicts, and Feasibility |
+| [Lecture 4](Lecture/L4.md) | IEEE-Style Software Requirements Specification (SRS); Agile Development |
+| [Lecture 5](Lecture/L5.md) | Hostel Management System Modules |
+| [Lecture 6](Lecture/L6.md) | Java Class Design; Code Review and Refactoring |
+| [Lecture 7](Lecture/L7.md) | C++ College Attendance Management System |
+| [Lecture 8](Lecture/L8.md) | AI Prompting for Code Generation, Debugging, and Requirement Discovery |
+| [Lecture 9](Lecture/L9.md) | Prompt Engineering |
+| [Lecture 10](Lecture/L10/) | AI-Assisted Code Correction; Calculator Development; C++ Examples |
+| [Lecture 11](Lecture/L11.md) | Data Structures; Concurrency; Race Conditions |
+| [Lectures 12–14](Lecture/L12-14/) | AI-Assisted Development; Copilot Activity; Hostel Management System |
+| [Lecture 15](Lecture/L15/) | AI Student Assistant |
+| [Lecture 16](Lecture/L16/) | AI Intelligence API |
 
 ## Assignments
 
 | Assignment | Materials |
 | --- | --- |
-| [Assignment 2](Assignment/A2/) | C++ assignment on AI-assisted debugging and code correction |
+| [Assignment 2](Assignment/A2/) | C++ AI-Assisted Debugging and Code Correction |
 
 ## Activities
 
 | Activity | Materials |
 | --- | --- |
-| [Activity 1](Activity/A1/) | AI Student Assistant project |
-| [Activity 2](Activity/A2/) | Student/course recommendation and supporting Python modules |
+| [Activity 1](Activity/A1/) | AI Student Assistant |
+| [Activity 2](Activity/A2/) | Student and Course Recommendation System |
 
 ## Getting Started
 
