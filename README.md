@@ -22,12 +22,29 @@ Course notes, practical exercises, assignments, and activities for Artificial In
 | [Lecture 16](Lecture/L16) | AI Intelligence API Integration |
 | [Lecture 17](Lecture/L17.md) | Test Case Design: Normal, Invalid, and Boundary Values |
 | [Lecture 18](Lecture/L18.md) | Login Testing, CSV Test Case Documentation, Requirement Clarification, and Healthcare Analytics Testing Scope |
-| [Lecture 19](Lecture/L19.ipynb) | Notebook link listed, but the file is not currently present in the repository |
+| [Lecture 19](Lecture/L19.ipynb) | AI-Assisted Anomaly Detection in Software Testing |
 | [Lecture 20](Lecture/L20.ipynb) | Software Defect Prediction with Machine Learning |
 
-## Lecture 19 — Material status
+## Lecture 19 — AI-Assisted Anomaly Detection in Software Testing
 
-The README previously linked to `Lecture/L19.ipynb`, but that notebook is not present in the current repository tree. Its topic could not be verified, so no topic description is inferred here. Add the notebook to `Lecture/L19.ipynb` and update this section once the lecture material is available.
+[Open the Lecture 19 notebook](Lecture/L19.ipynb) to explore how machine learning can flag unusual website response times for further investigation.
+
+### Topics covered
+
+- **Synthetic test data:** Create and inspect sample website response-time measurements.
+- **Anomaly detection:** Use the Isolation Forest algorithm to identify observations that differ from the main pattern.
+- **Visualization:** Plot response times and inspect the observations flagged by the model.
+- **Experimentation:** Change a model setting and compare the detected anomalies.
+- **Testing interpretation:** Use anomaly flags as signals for investigation, not as proof that a defect exists.
+
+### How to run
+
+1. Open [Lecture/L19.ipynb](Lecture/L19.ipynb) on GitHub.
+2. Select the **Open in Colab** badge at the top of the notebook, or download it and use Jupyter Notebook.
+3. Run the cells in order. In Google Colab, select **Runtime → Run all**.
+4. If a library is missing, install the required packages as directed in the notebook.
+
+The exercise uses synthetic classroom data and demonstrates a basic anomaly-detection workflow; it does not establish that a real website has a defect.
 
 ## Lecture 20 — Software Defect Prediction with Machine Learning
 
