@@ -20,6 +20,8 @@
 | [Lecture 16](Lecture/L16) | AI Intelligence API Integration |
 | [Lecture 17](Lecture/L17.md) | Test Case Design: Normal, Invalid & Boundary Values |
 | [Lecture 18](Lecture/L18.md) | Login Testing, CSV Test Case Documentation, Requirement Clarification & Healthcare Analytics Testing Scope |
+| [Lecture 19](Lecture/L19.md) ||
+| [Lecture 20](Lecture/L20.md) ||
 
 ## Assignment
 
