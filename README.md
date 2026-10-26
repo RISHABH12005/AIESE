@@ -25,49 +25,6 @@ Course notes, practical exercises, assignments, and activities for Artificial In
 | [Lecture 19](Lecture/L19.ipynb) | AI-Assisted Anomaly Detection in Software Testing |
 | [Lecture 20](Lecture/L20.ipynb) | Software Defect Prediction with Machine Learning |
 
-## Lecture 19 — AI-Assisted Anomaly Detection in Software Testing
-
-[Open the Lecture 19 notebook](Lecture/L19.ipynb) to explore how machine learning can flag unusual website response times for further investigation.
-
-### Topics covered
-
-- **Synthetic test data:** Create and inspect sample website response-time measurements.
-- **Anomaly detection:** Use the Isolation Forest algorithm to identify observations that differ from the main pattern.
-- **Visualization:** Plot response times and inspect the observations flagged by the model.
-- **Experimentation:** Change a model setting and compare the detected anomalies.
-- **Testing interpretation:** Use anomaly flags as signals for investigation, not as proof that a defect exists.
-
-### How to run
-
-1. Open [Lecture/L19.ipynb](Lecture/L19.ipynb) on GitHub.
-2. Select the **Open in Colab** badge at the top of the notebook, or download it and use Jupyter Notebook.
-3. Run the cells in order. In Google Colab, select **Runtime → Run all**.
-4. If a library is missing, install the required packages as directed in the notebook.
-
-The exercise uses synthetic classroom data and demonstrates a basic anomaly-detection workflow; it does not establish that a real website has a defect.
-
-## Lecture 20 — Software Defect Prediction with Machine Learning
-
-[Open the Lecture 20 notebook](Lecture/L20.ipynb) to explore how machine-learning models can estimate whether a software module is likely to contain defects.
-
-### Topics covered
-
-- **Dataset:** Load and inspect the public NASA JM1 software metrics dataset from OpenML.
-- **Feature preparation:** Separate software metrics from the defect labels and prepare data for classification.
-- **Model training:** Train and compare baseline machine-learning classifiers.
-- **Evaluation:** Compare model performance with precision, recall, F1-score, ROC-AUC, and a confusion matrix.
-- **Prediction:** Use a trained model to estimate defect risk for a software module.
-- **Interpretation:** Understand that predictions are risk estimates and depend on data quality, class balance, preprocessing, and evaluation strategy.
-
-### How to run
-
-1. Open [Lecture/L20.ipynb](Lecture/L20.ipynb) on GitHub.
-2. Select **Open in Colab** using the badge at the top of the notebook, or download the notebook and run it in Jupyter.
-3. Run the cells in order. In Google Colab, choose **Runtime → Run all**.
-4. Allow the notebook to install its Python dependencies and download the dataset from OpenML.
-
-The notebook is an educational baseline; it does not claim to reproduce the exact results of a specific research paper.
-
 ## Assignments
 
 | Assignment | Topic |
