@@ -22,22 +22,34 @@ Course notes, practical exercises, assignments, and activities for Artificial In
 | [Lecture 16](Lecture/L16) | AI Intelligence API Integration |
 | [Lecture 17](Lecture/L17.md) | Test Case Design: Normal, Invalid, and Boundary Values |
 | [Lecture 18](Lecture/L18.md) | Login Testing, CSV Test Case Documentation, Requirement Clarification, and Healthcare Analytics Testing Scope |
-| [Lecture 19](Lecture/L19.ipynb) | Lecture material not found in this repository yet |
+| [Lecture 19](Lecture/L19.ipynb) | Notebook link listed, but the file is not currently present in the repository |
 | [Lecture 20](Lecture/L20.ipynb) | Software Defect Prediction with Machine Learning |
 
-### Lecture 20 — Software Defect Prediction with Machine Learning
+## Lecture 19 — Material status
 
-The Lecture 20 Jupyter notebook demonstrates a machine-learning workflow for predicting whether a software module is likely to contain defects.
+The README previously linked to `Lecture/L19.ipynb`, but that notebook is not present in the current repository tree. Its topic could not be verified, so no topic description is inferred here. Add the notebook to `Lecture/L19.ipynb` and update this section once the lecture material is available.
 
-**Topics covered**
-- Loading and inspecting the public NASA JM1 software metrics dataset through OpenML.
-- Separating software-metric features from defect labels.
-- Training baseline classification models.
-- Evaluating predictions with precision, recall, F1-score, ROC-AUC, and a confusion matrix.
-- Interpreting model evaluation as an educational experiment rather than an exact reproduction of a research paper.
+## Lecture 20 — Software Defect Prediction with Machine Learning
 
-**Open the notebook:** [Lecture/L20.ipynb](Lecture/L20.ipynb)  
-You can view it on GitHub or open it in Google Colab using the badge at the top of the notebook. Run the cells in order; in Colab, select **Runtime → Run all**.
+[Open the Lecture 20 notebook](Lecture/L20.ipynb) to explore how machine-learning models can estimate whether a software module is likely to contain defects.
+
+### Topics covered
+
+- **Dataset:** Load and inspect the public NASA JM1 software metrics dataset from OpenML.
+- **Feature preparation:** Separate software metrics from the defect labels and prepare data for classification.
+- **Model training:** Train and compare baseline machine-learning classifiers.
+- **Evaluation:** Compare model performance with precision, recall, F1-score, ROC-AUC, and a confusion matrix.
+- **Prediction:** Use a trained model to estimate defect risk for a software module.
+- **Interpretation:** Understand that predictions are risk estimates and depend on data quality, class balance, preprocessing, and evaluation strategy.
+
+### How to run
+
+1. Open [Lecture/L20.ipynb](Lecture/L20.ipynb) on GitHub.
+2. Select **Open in Colab** using the badge at the top of the notebook, or download the notebook and run it in Jupyter.
+3. Run the cells in order. In Google Colab, choose **Runtime → Run all**.
+4. Allow the notebook to install its Python dependencies and download the dataset from OpenML.
+
+The notebook is an educational baseline; it does not claim to reproduce the exact results of a specific research paper.
 
 ## Assignments
 
