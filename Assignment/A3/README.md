@@ -1,3 +1,36 @@
+## Task 1 — API Endpoint Testing
+
+### Objective
+
+Test the specified JSONPlaceholder GET endpoints in Postman, verify that each request returns a successful response, and inspect three fields in each response.
+
+### API Endpoints and Observations
+
+| Endpoint | Status | Three fields observed |
+|---|---|---|
+| `GET /users/2` | `200 OK` | `id: 2`, `name: "Ervin Howell"`, `email: "Shanna@melissa.tv"` |
+| `GET /comments/5` | `200 OK` | `postId: 1`, `id: 5`, `name: " vero eaque aliquid doloribus et culpa"` |
+| `GET /todos/3` | `200 OK` | `userId: 1`, `id: 3`, `title: "fugiat veniam minus"` |
+
+### Test Procedure
+
+1. Open Postman and create a new request.
+2. Select the **GET** method.
+3. Enter the endpoint using the base URL `https://jsonplaceholder.typicode.com`.
+4. Click **Send** and verify that the response status is `200 OK`.
+5. Inspect the JSON response and record the three fields listed in the table.
+6. Repeat the procedure for all three endpoints.
+
+### Expected Result
+
+All three endpoints should return **HTTP 200 OK** with a valid JSON object containing the requested resource data. The observed fields should match the endpoint responses.
+
+### Conclusion
+
+All three GET endpoints are expected to return successful responses. The response fields confirm that the API provides user, comment, and to-do resource data for the requested IDs.
+
+---
+
 ## Task 5 — Software Quality Assurance (SQA)
 
 ### API Endpoint Tested
