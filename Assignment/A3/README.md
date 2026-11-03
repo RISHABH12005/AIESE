@@ -1,3 +1,11 @@
+# Postman API Testing Practical
+
+**Name:** ____________________________________  
+**Roll No.:** ____________________  
+**Date:** _____________________________________
+
+---
+
 # Task 1 - API Request and Response Analysis
 
 | Endpoint | Status | Three fields observed |
