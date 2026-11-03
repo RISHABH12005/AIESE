@@ -8,19 +8,11 @@
 
 # Task 2 - Automated API Testing
 
-**Endpoint:** `GET https://jsonplaceholder.typicode.com/todos/3`
-
-### Test conditions
-
-The following five automated tests were added in Postman under **Scripts → After response**:
-
-1. Verify that the HTTP status code is `200`.
-2. Verify that the response contains an `id` field.
-3. Verify that the `title` is a non-empty string.
-4. Verify that the `completed` field is a Boolean value.
-5. Verify that the returned `id` is `3`.
-
-### Post-response test script
+| Result item | Recorded value |
+|---|---|
+| Number of tests passed | **5** |
+| Number of tests failed | **0** |
+| Screenshot attached? | **Yes** |
 
 ```javascript
 pm.test("Status code is 200", function () {
@@ -46,21 +38,6 @@ pm.test("Returned ID is 3", function () {
     pm.expect(jsonData.id).to.eql(3);
 });
 ```
-
-### Record your result
-
-| Result item | Recorded value |
-|---|---|
-| Number of tests passed | **5** |
-| Number of tests failed | **0** |
-| Overall result | **PASS** |
-| Screenshot attached? | **Yes** |
-
-### Conclusion
-
-All five automated tests passed for the `GET /todos/3` endpoint. The response returned HTTP `200 OK`, contained the required fields, used the expected data types, and returned the expected ID of `3`. The Postman test-results screenshot is attached as evidence.
-
----
 
 # Task 5 - Software Quality Assurance (SQA)
 
