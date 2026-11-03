@@ -46,6 +46,6 @@ Course notes, practical exercises, assignments, and activities for Artificial In
 
 | Quiz | Topic |
 |------|-------|
-| [Quiz 1](Quiz/Q1) ||
-| [Quiz 2](Quiz/Q2) ||
-| [Quiz 3](Quiz/Q3) ||
+| [Quiz 1](Quiz/Q1.md) ||
+| [Quiz 2](Quiz/Q2.md) ||
+| [Quiz 3](Quiz/Q3.md) ||
