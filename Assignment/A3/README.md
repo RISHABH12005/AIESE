@@ -90,3 +90,9 @@ pm.test("Returned ID is 4", function () {
 | **Test status** | FAIL — 4/5 tests passed |
 | **Issue identified** | The ID assertion in the test script expected ID 3 instead of ID 4. The API response was correct, but the test assertion was incorrect. |
 | **Suggested improvement** | Correct the assertion from `pm.expect(jsonData.id).to.eql(3)` to `pm.expect(jsonData.id).to.eql(4)`. Alternatively, dynamically validate the returned ID against the requested endpoint. |
+
+---
+
+## Final Submission Requirement
+
+- Completed SQA report and answers to the viva questions.
