@@ -6,6 +6,62 @@
 | `GET /comments/5` | `200 OK` | `postId: 1`, `id: 5`, `name: " vero eaque aliquid doloribus et culpa"` |
 | `GET /todos/3` | `200 OK` | `userId: 1`, `id: 3`, `title: "fugiat veniam minus"` |
 
+# Task 2 - Automated API Testing
+
+**Endpoint:** `GET https://jsonplaceholder.typicode.com/todos/3`
+
+### Test conditions
+
+The following five automated tests were added in Postman under **Scripts → After response**:
+
+1. Verify that the HTTP status code is `200`.
+2. Verify that the response contains an `id` field.
+3. Verify that the `title` is a non-empty string.
+4. Verify that the `completed` field is a Boolean value.
+5. Verify that the returned `id` is `3`.
+
+### Post-response test script
+
+```javascript
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+const jsonData = pm.response.json();
+
+pm.test("Response contains an ID field", function () {
+    pm.expect(jsonData).to.have.property("id");
+});
+
+pm.test("Title is a non-empty string", function () {
+    pm.expect(jsonData.title).to.be.a("string")
+        .and.to.have.length.above(0);
+});
+
+pm.test("Completed field is Boolean", function () {
+    pm.expect(jsonData.completed).to.be.a("boolean");
+});
+
+pm.test("Returned ID is 3", function () {
+    pm.expect(jsonData.id).to.eql(3);
+});
+```
+
+### Record your result
+
+| Result item | Recorded value |
+|---|---|
+| Number of tests passed | **5** |
+| Number of tests failed | **0** |
+| Overall result | **PASS** |
+| Screenshot attached? | **Yes** |
+
+### Conclusion
+
+All five automated tests passed for the `GET /todos/3` endpoint. The response returned HTTP `200 OK`, contained the required fields, used the expected data types, and returned the expected ID of `3`. The Postman test-results screenshot is attached as evidence.
+
+---
+
 # Task 5 - Software Quality Assurance (SQA)
 
 | Report Item | Student Response |
