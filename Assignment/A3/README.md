@@ -39,6 +39,50 @@ pm.test("Returned ID is 3", function () {
 });
 ```
 
+# Task 3 - Intelligent Debugging
+
+### Endpoint Tested
+
+`GET https://jsonplaceholder.typicode.com/todos/4`
+
+The request URL was changed from `/todos/3` to `/todos/4`, while the original Postman test continued to expect an ID of `3`.
+
+### Observation
+
+| Observation item | Result |
+|---|---|
+| Expected value | `3` |
+| Actual value | `4` |
+| HTTP response | `200 OK` |
+| Test result | **4 passed, 1 failed** |
+| Failed test | Returned ID is 3 |
+
+### Why did the test fail?
+
+The test failed because the request was sent to `/todos/4`, which correctly returned an object with `id: 4`, but the test script still expected `id: 3`. The ID assertion therefore failed even though the API request itself was successful. The API is not defective; the expected value in the test was incorrect.
+
+### How did you fix it?
+
+I updated the ID assertion to expect `4` instead of `3`.
+
+**Original assertion:**
+
+```javascript
+pm.expect(jsonData.id).to.eql(3);
+```
+
+**Corrected assertion:**
+
+```javascript
+pm.test("Returned ID is 4", function () {
+    pm.expect(jsonData.id).to.eql(4);
+});
+```
+
+After changing the assertion, send the request again in Postman to verify that all five tests pass.
+
+---
+
 # Task 5 - Software Quality Assurance (SQA)
 
 | Report Item | Student Response |
