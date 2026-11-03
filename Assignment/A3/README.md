@@ -93,6 +93,38 @@ pm.test("Returned ID is 4", function () {
 
 ---
 
+# Viva Questions and Answers
+
+### 1. What is an API endpoint?
+
+An API endpoint is a specific URL through which a client can access a resource or perform an operation on a server. For example, `GET /users/2` retrieves the user whose ID is 2.
+
+### 2. What is the difference between an API request and a response?
+
+An API request is a message sent by a client to a server asking for data or an operation. An API response is the server's reply, which contains a status code and may include the requested data or an error message.
+
+### 3. What is an assertion in API testing?
+
+An assertion is a condition used to verify whether the actual API response matches the expected result. For example, checking that the response status is `200` or that the returned ID equals `3`.
+
+### 4. Why can a request return 200 OK while a test fails?
+
+HTTP `200 OK` means that the server successfully processed the request. However, a test can still fail if the response data does not match an assertion. For example, the API may return ID `4` while the test incorrectly expects ID `3`.
+
+### 5. How does intelligent debugging help identify the cause of a failure?
+
+Intelligent debugging helps analyze the failed assertion, compare expected and actual values, and identify the root cause of the failure. It helps distinguish between an API problem and an incorrect test script or expectation.
+
+### 6. How is regression testing different from testing a single request?
+
+Testing a single request checks one API request independently. Regression testing runs previously created tests again, often as a collection, to verify that existing functionality continues to work after changes.
+
+### 7. Why is response validation important for software quality?
+
+Response validation ensures that an API returns the correct status, data types, fields, and expected values. It helps detect defects, maintain reliability, and ensure that the API meets its requirements.
+
+---
+
 ## Final Submission Requirement
 
-- Completed SQA report and answers to the viva questions.
+- Completed SQA report and answers to all seven viva questions.
