@@ -22,9 +22,11 @@ Course notes, practical exercises, assignments, and activities for Artificial In
 | [Lecture 16](Lecture/L16) | AI Intelligence API Integration |
 | [Lecture 17](Lecture/L17.md) | Test Case Design: Normal, Invalid, and Boundary Values |
 | [Lecture 18](Lecture/L18.md) | Login Testing, CSV Test Case Documentation, Requirement Clarification, and Healthcare Analytics Testing Scope |
-| [Lecture 19](Lecture/L19.ipynb) | AI-Assisted Anomaly Detection in Software Testing |
-| [Lecture 20](Lecture/L20.ipynb) | Software Defect Prediction with Machine Learning |
-| [Lecture 21](Lecture/L21) ||
+| [Lecture 19](Lecture/L19) ||
+| [Lecture 20](Lecture/L20.ipynb) | AI-Assisted Anomaly Detection in Software Testing |
+| [Lecture 21](Lecture/L21.ipynb) | Software Defect Prediction with Machine Learning |
+| [Lecture 22](Lecture/L22) ||
+
 
 ## Assignments
 
