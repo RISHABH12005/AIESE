@@ -25,7 +25,7 @@ Course notes, practical exercises, assignments, and activities for Artificial In
 | [Lecture 19](Lecture/L19) | AI-Assisted Test Automation |
 | [Lecture 20](Lecture/L20.ipynb) | Anomaly Detection |
 | [Lecture 21](Lecture/L21.ipynb) | Software Defect Prediction |
-| [Lecture 22](Lecture/L22) | Topics to be added |
+| [Lecture 22](Lecture/L22) |  |
 
 ## Assignments
 
