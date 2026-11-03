@@ -24,12 +24,14 @@ Course notes, practical exercises, assignments, and activities for Artificial In
 | [Lecture 18](Lecture/L18.md) | Login Testing, CSV Test Case Documentation, Requirement Clarification, and Healthcare Analytics Testing Scope |
 | [Lecture 19](Lecture/L19.ipynb) | AI-Assisted Anomaly Detection in Software Testing |
 | [Lecture 20](Lecture/L20.ipynb) | Software Defect Prediction with Machine Learning |
+| [Lecture 21](Lecture/L21) ||
 
 ## Assignments
 
 | Assignment | Topic |
 |------------|-------|
 | [Assignment 2](Assignment/A2) | AI-Assisted Debugging and Code Correction in C++ |
+| [Assignment 3](Assignment/A3) || 
 
 ## Activities
 
@@ -37,3 +39,11 @@ Course notes, practical exercises, assignments, and activities for Artificial In
 |----------|-------|
 | [Activity 1](Activity/A1) | AI Student Assistant Development |
 | [Activity 2](Activity/A2) | AI-Based Student and Course Recommendation System |
+
+## Quiz
+
+| Quiz | Topic |
+|------|-------|
+| [Quiz 1](Quiz/Q1) ||
+| [Quiz 2](Quiz/Q2) ||
+| [Quiz 3](Quiz/Q3) ||
