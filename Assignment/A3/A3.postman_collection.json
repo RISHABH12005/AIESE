@@ -1,0 +1,105 @@
+{
+  "info": {
+    "_postman_id": "85234d72-16b5-460d-b35d-5145b7697ed9",
+    "name": "A3",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "36329387"
+  },
+  "item": [
+    {
+      "name": "User-2",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/users/2",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "users",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Comment-5",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/comments/5",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "comments",
+            "5"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Todos-3",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {\n    pm.response.to.have.status(200);\n});\n\npm.test(\"Response contains an id field\", function () {\n    const jsonData = pm.response.json();\n    pm.expect(jsonData).to.have.property(\"id\");\n});\n\npm.test(\"Title is a non-empty string\", function () {\n    const jsonData = pm.response.json();\n    pm.expect(jsonData.title).to.be.a(\"string\").and.to.have.length.above(0);\n});\n\npm.test(\"Completed field is a Boolean value\", function () {\n    const jsonData = pm.response.json();\n    pm.expect(jsonData.completed).to.be.a(\"boolean\");\n});\n\npm.test(\"Returned ID is 3\", function () {\n    const jsonData = pm.response.json();\n    pm.expect(jsonData.id).to.eql(3);\n});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/todos/4",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "todos",
+            "4"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "User-3",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/users/3",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "users",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
