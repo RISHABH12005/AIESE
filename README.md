@@ -22,18 +22,17 @@ Course notes, practical exercises, assignments, and activities for Artificial In
 | [Lecture 16](Lecture/L16) | AI Intelligence API Integration |
 | [Lecture 17](Lecture/L17.md) | Test Case Design: Normal, Invalid, and Boundary Values |
 | [Lecture 18](Lecture/L18.md) | Login Testing, CSV Test Case Documentation, Requirement Clarification, and Healthcare Analytics Testing Scope |
-| [Lecture 19](Lecture/L19) ||
+| [Lecture 19](Lecture/L19) | AI-Assisted Test Automation: Test Case Generation, Test Data, and Automation Configuration |
 | [Lecture 20](Lecture/L20.ipynb) | AI-Assisted Anomaly Detection in Software Testing |
 | [Lecture 21](Lecture/L21.ipynb) | Software Defect Prediction with Machine Learning |
-| [Lecture 22](Lecture/L22) ||
-
+| [Lecture 22](Lecture/L22) | Topics and materials to be added |
 
 ## Assignments
 
 | Assignment | Topic |
 |------------|-------|
 | [Assignment 2](Assignment/A2) | AI-Assisted Debugging and Code Correction in C++ |
-| [Assignment 3](Assignment/A3) || 
+| [Assignment 3](Assignment/A3) | API Testing Using Postman: Request and Response Analysis, Automated Assertions, Intelligent Debugging, Regression Testing, and Software Quality Assurance |
 
 ## Activities
 
@@ -46,6 +45,6 @@ Course notes, practical exercises, assignments, and activities for Artificial In
 
 | Quiz | Topic |
 |------|-------|
-| [Quiz 1](Quiz/Q1.md) ||
-| [Quiz 2](Quiz/Q2.md) ||
-| [Quiz 3](Quiz/Q3.md) ||
+| [Quiz 1](Quiz/Q1.md) | AI-Assisted Software Engineering, Prompt Engineering, Automated Test Case Generation, Defect Prediction, and Anomaly Detection |
+| [Quiz 2](Quiz/Q2.md) | Intelligent Debugging, Regression Testing, Software Quality Assurance, HTTP Status Codes, and API Assertions |
+| [Quiz 3](Quiz/Q3.md) | API Response Validation, Expected vs. Actual Results, Regression Testing, and Endpoint-Specific Debugging |
