@@ -6,7 +6,7 @@
 | `GET /comments/5` | `200 OK` | `postId: 1`, `id: 5`, `name: " vero eaque aliquid doloribus et culpa"` |
 | `GET /todos/3` | `200 OK` | `userId: 1`, `id: 3`, `title: "fugiat veniam minus"` |
 
-## Task 5 - Software Quality Assurance (SQA)
+# Task 5 - Software Quality Assurance (SQA)
 
 | Report Item | Student Response |
 |---|---|
