@@ -1,0 +1,6 @@
+enter "standard_user" into "Username"
+enter "secret_sauce" into "Password"
+click "Login"
+click "Sauce Labs Backpack"
+click "Add to cart"
+check that page contains "Remove"
