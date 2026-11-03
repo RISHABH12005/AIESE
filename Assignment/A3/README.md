@@ -14,6 +14,8 @@
 | Number of tests failed | **0** |
 | Screenshot attached? | **Yes** |
 
+**Endpoint:** `GET https://jsonplaceholder.typicode.com/todos/3`
+
 ```javascript
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
@@ -45,10 +47,12 @@ pm.test("Returned ID is 3", function () {
 |---|---|
 | Expected value | `3` |
 | Actual value | `4` |
+| HTTP response | `200 OK` |
+| Test result | **4 passed, 1 failed** |
 
 ## Why did the test fail?
 
-The test failed because the request was sent to `/todos/4`, which correctly returned an object with `id: 4`, but the test script still expected `id: 3`. The ID assertion therefore failed even though the API request itself was successful. The API is not defective; the expected value in the test was incorrect.
+The request was sent to `/todos/4`, which correctly returned an object with `id: 4`, but the test script still expected `id: 3`. The ID assertion therefore failed even though the API request itself was successful. The API was not defective; the expected value in the test was incorrect.
 
 ## How did you fix it?
 
@@ -67,6 +71,59 @@ pm.test("Returned ID is 4", function () {
     pm.expect(jsonData.id).to.eql(4);
 });
 ```
+
+# Task 4 - Regression Testing
+
+### Endpoints Tested
+
+Save both requests in the same Postman collection:
+
+- `GET https://jsonplaceholder.typicode.com/users/2`
+- `GET https://jsonplaceholder.typicode.com/users/3`
+
+For each request, add assertions to verify that the HTTP status is `200` and that the returned user ID matches the endpoint.
+
+### Test Script for GET /users/2
+
+```javascript
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+const jsonData = pm.response.json();
+
+pm.test("Returned user ID is 2", function () {
+    pm.expect(jsonData.id).to.eql(2);
+});
+```
+
+### Test Script for GET /users/3
+
+```javascript
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+const jsonData = pm.response.json();
+
+pm.test("Returned user ID is 3", function () {
+    pm.expect(jsonData.id).to.eql(3);
+});
+```
+
+### Regression Test Record
+
+| Stage | Result | What happened? |
+|---|---|---|
+| Initial run | **Not verified** | Run both saved requests with the correct expected IDs. Record the collection-run result after checking Postman. |
+| Incorrect expected ID | **Not verified** | Change one expected user ID to an incorrect value and run the collection again. The corresponding ID assertion should fail. |
+| After correction | **Not verified** | Restore the correct expected ID and rerun the collection to confirm that the tests pass. |
+
+### Why is regression testing important?
+
+Regression testing checks that previously working functionality continues to work after a change. Running the saved requests together in a Postman collection makes it easier to identify unintended failures and verify that the corrected assertions still work.
+
+> **Note:** The result cells are marked "Not verified" because actual Postman collection-run screenshots or results have not been provided. Update these entries after performing the three runs; do not report assumed results as executed tests.
 
 # Task 5 - Software Quality Assurance (SQA)
 
