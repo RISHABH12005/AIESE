@@ -23,9 +23,10 @@ Course notes, practical exercises, assignments, and activities for Artificial In
 | [Lecture 17](Lecture/L17.md) | Test Case Design |
 | [Lecture 18](Lecture/L18.md) | Login and Healthcare System Testing |
 | [Lecture 19](Lecture/L19) | AI-Assisted Test Automation |
-| [Lecture 20](Lecture/L20.ipynb) | Anomaly Detection |
-| [Lecture 21](Lecture/L21.ipynb) | Software Defect Prediction |
-| [Lecture 22](Lecture/L22) |  |
+| [Lecture 20](Lecture/L20) ||
+| [Lecture 21](Lecture/L21) ||
+| [Lecture 22](https://github.com/RISHABH12005/AIESE-L22) ||
+| [Lecture 23](https://github.com/RISHABH12005/AIESE-L23) ||
 
 ## Assignments
 
