@@ -42,7 +42,7 @@ Course notes, practical exercises, assignments, and activities for Artificial In
 |----------|-------|
 | [Activity 1](Activity/A1) | AI Student Assistant |
 | [Activity 2](Activity/A2) | Student Course Recommendation System |
-| [Activity 2](Activity/A3) | |
+| [Activity 3](Activity/A3) | |
 
 ## Quiz
 
