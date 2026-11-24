@@ -1,0 +1,74 @@
+{
+  "info": {
+    "_postman_id": "8a4672dc-c9d8-4fed-ba14-7d9390dc8b2c",
+    "name": "Postman Regression Practice",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "36329387"
+  },
+  "item": [
+    {
+      "name": "GET Post 1",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP status is 200\", function () {\r\npm.response.to.have.status(200);\r\n});\r\npm.test(\"Post ID is 1\", function () {\r\nconst data = pm.response.json();\r\npm.expect(data.id).to.eql(1);\r\n});\r\npm.test(\"Title is a non-empty string\", function () {\r\nconst data = pm.response.json();\r\npm.expect(data.title).to.be.a(\"string\").and.not.empty;\r\n});\r\npm.test(\"User ID is 1\", function () {\r\nconst data = pm.response.json();\r\npm.expect(data.userId).to.eql(1);\r\n});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts/1",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET Post 2",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP status is 200\", function () {\r\npm.response.to.have.status(200);\r\n});\r\npm.test(\"Post ID is 2\", function () {\r\nconst data = pm.response.json();\r\npm.expect(data.id).to.eql(2);\r\n});\r\npm.test(\"Title is a non-empty string\", function () {\r\n    const data = pm.response.json();\r\npm.expect(data.title).to.be.a(\"string\").and.not.empty;\r\n});\r\npm.test(\"User ID is 1\", function () {\r\nconst data = pm.response.json();\r\npm.expect(data.userId).to.eql(1);\r\n});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts/2",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
